@@ -4,9 +4,13 @@
 
 * {
 	margin: 0;
+	/* max-width: 100vw; */
 }
 body {
 	font-family: 'Jost', sans-serif;
+}
+img {
+	max-width: 100%;
 }
 
 /* Header Style */
@@ -141,4 +145,184 @@ body {
 }
 .restaurant-content img {
 	width: 300px;
+}
+
+/* Process section style */
+.process-section {
+	margin: 50px;
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.process-section h1 {
+	margin: 70px 0;
+}
+.process-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 30px;
+}
+.process-details {
+	text-align: center;
+	border-radius: 10px;
+	padding: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.process-details i {
+	font-size: 60px;
+	color: var(--primary-color);
+	margin-top: 20px;
+	padding: 20px;
+	background: #ffd0d8;
+	border-radius: 120px 50px 50px 50px;
+}
+.process-details h5 {
+	color: var(--primary-color);
+	font-weight: 600;
+	margin: 30px 0;
+}
+
+/* Extra section */
+.design-container {
+	background-image: url('/Images/Background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 150px 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 300px;
+	position: relative;
+	color: white;
+	padding: 20px;
+	border-radius: 30px;
+}
+.design-container h2 {
+	line-height: 1.5;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 30px;
+}
+.app-btn > button:first-child {
+	background: black;
+	color: white;
+	border-radius: 20px;
+	padding: 9px;
+	margin: 30px;
+	font-weight: 600;
+}
+.app-btn > button:last-child {
+	background: none;
+	border: none;
+	font-weight: 600;
+	color: white;
+	border-radius: 20px;
+	padding: 9px;
+}
+.app-btn button:hover {
+	background: var(--primary-color);
+}
+
+/* Review style */
+.review-container {
+	text-align: center;
+	max-width: 60ch;
+	margin: auto;
+}
+.review-container p {
+	font-size: 13px;
+}
+.review-container h2 {
+	margin: 25px;
+}
+.review-details {
+	background-image: url('/Images/Rectangle.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 250px;
+	color: white;
+	margin: 60px 20px;
+	border-radius: 30px;
+}
+.review-content {
+	width: 40ch;
+	margin: auto;
+}
+.review-content .empty {
+	background: #c5cbd1;
+	height: 75px;
+	width: 75px;
+	margin: 15px auto;
+	border-radius: 50% 50%;
+}
+.review-content h6 {
+	color: var(--primary-color);
+	margin: 15px;
+}
+.company-logo {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat(5, 1fr);
+	width: 70%;
+	margin: auto;
+	align-items: center;
+}
+
+/* Footer style */
+.footer-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 80px 0 30px 80px;
+}
+.footer-nav nav {
+	display: flex;
+	gap: 20px;
+}
+.footer-nav h2 {
+	color: var(--primary-color);
+	font-weight: 800;
+}
+.footer-nav a {
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.footer-details {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background: #f8f9fa;
+	padding: 40px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.footer-details a {
+	text-decoration: none;
+	color: black;
+}
+.nav-item {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	min-width: 70ch;
+	gap: 30px;
+	font-size: 12px;
+	z-index: 1;
+}
+.nav-item ul li {
+	list-style-type: none;
+	line-height: 2;
+}
+.footer-ornaments .ornament {
+	position: absolute;
+	top: 0;
+	bottom: 20;
+	right: 0;
 }
