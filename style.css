@@ -67,3 +67,37 @@ body {
 	color: var(--primary-color);
 	margin-right: 7px;
 }
+
+/* Feature section style */
+.feature-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	height: 100vh;
+	gap: 40px;
+}
+.feature-section img {
+	width: 50%;
+}
+.feature-text h3 {
+	max-width: 18ch;
+	line-height: 40px;
+	letter-spacing: 0.3;
+	margin: 25px 0;
+}
+.feature-text p {
+	max-width: 40ch;
+	margin-bottom: 30px;
+}
+.download-btn {
+	background: var(--primary-color);
+	padding: 12px;
+	font-weight: 500;
+	border: none;
+	border-radius: 50px;
+	color: white;
+}
+.download-btn:hover {
+	background: red;
+}
