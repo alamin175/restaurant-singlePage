@@ -101,3 +101,44 @@ body {
 .download-btn:hover {
 	background: red;
 }
+
+/* Restaurant style */
+.restaurant-section {
+	margin: 40px;
+	max-width: 100vw;
+}
+.popular-text {
+	display: flex;
+	margin: 20px 0;
+	justify-content: space-between;
+}
+.popular-text button {
+	background: none;
+	border: none;
+}
+.popular-text button:hover {
+	color: var(--primary-color);
+}
+.restaurant-name {
+	font-weight: 600;
+	margin-top: 15px;
+}
+.delivery-details {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.restaurant-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: fit-content;
+	column-gap: 45px;
+	margin: auto;
+	justify-content: center;
+}
+.restaurant-content > div:first-child {
+	grid-row: span 2;
+}
+.restaurant-content img {
+	width: 300px;
+}
