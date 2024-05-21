@@ -299,7 +299,7 @@ img {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	background: #f8f9fa;
-	padding: 40px;
+	padding: 100px;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
@@ -325,4 +325,7 @@ img {
 	top: 0;
 	bottom: 20;
 	right: 0;
+}
+.footer-ornaments img {
+	width: 450px;
 }
