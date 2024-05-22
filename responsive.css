@@ -1,4 +1,6 @@
-/* For Tablet/iPad Devices */
+/*----------------------------
+ For Tablet/iPad Devices 
+ ----------------------------*/
 
 @media (max-width: 768px) {
 	/* Header */
@@ -69,9 +71,15 @@
 		grid-template-columns: repeat(1, 1fr);
 		padding: 45px;
 	}
+	.footer-ornaments img {
+		width: 350px;
+	}
 }
 
-/* For Mobile Devices */
+/*---------------------
+ For Mobile Devices 
+ ----------------------*/
+
 @media (max-width: 480px) {
 	/* Header */
 	.header {
@@ -80,7 +88,7 @@
 
 	/* Banner */
 	.banner {
-		height: 450px;
+		height: calc(100vh - 5rem);
 		padding: 20px;
 	}
 	.banner-content h4 {
@@ -147,8 +155,12 @@
 	.footer-details {
 		grid-template-columns: repeat(1, 1fr);
 		padding: 20px;
+		overflow-x: hidden;
 	}
 	.nav-item {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.footer-ornaments img {
+		width: 300px;
 	}
 }
