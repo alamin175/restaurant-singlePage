@@ -241,6 +241,11 @@ img {
 .review-container h2 {
 	margin: 25px;
 }
+.review-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .review-details {
 	background-image: url('/Images/Rectangle.png');
 	background-repeat: no-repeat;
@@ -255,7 +260,7 @@ img {
 	border-radius: 30px;
 }
 .review-content {
-	width: 40ch;
+	padding: 3rem;
 	margin: auto;
 }
 .review-content .empty {
